@@ -1,11 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example
-  links:
-    - url: https://dashboard.example.com
-      title: My Dashboard
-      icon: dashboard
+  annotations:
+    github.com/project-slug: MyOrgBackstage/backstage
 spec:
   type: service
   owner: user:guest
